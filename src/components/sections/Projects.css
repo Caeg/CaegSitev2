@@ -7,26 +7,25 @@
 }
 
 .colorificationPic{
+    margin-left: 1vh;
     float: left;
     box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
+    height: 392px;
+    width: auto;
 }
 
 
 .textContainer1{
     float: left;
     margin-left: -40px;
-    width: 600px;
+    width: 33vw;
 }
 
 
-.textContainerLeft{
-
-}
 
 .textBox{
     background-color: steelblue;
-    width: 580px;
-    height: 120px;
+    width: 33vw;
     box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
     border-radius: 2px;
     text-align: center;
@@ -39,23 +38,26 @@ p{
 }
 
 .projectTitle1{
-    margin-top: 90px;
-    margin-left: 380px;
+    text-align: right;
+    margin-top: 4vw;
     color: white;
     font-size: 28px;
+
 
 }
 
 .ul1
 {
+
     overflow-x:hidden;
     white-space:nowrap;
-    margin-right: 10px;
+    margin-right: -20px;
     margin-top: 10px;
 }
 
 .li1
 {
+    text-align: right;
     float: right;
     padding-right: 25px;
     display:inline;
@@ -65,33 +67,33 @@ a.gitHyper{
     margin-right: 25px;
 }
 
-.project2{
+.project1{
     margin-top: 400px;
     position: relative;
     display:flex;
     justify-content:center;
 }
 
-.UNOPic{
-    margin-right: -1130px;
-    float: right;
+.colorificationPic{
+    margin-left: 1vh;
+    float: left;
     box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
-    width: 600px;
+    height: 392px;
+    width: auto;
 }
 
-.projectTitle2{
-    margin-top: 80px;
-    margin-left: -10px;;
-    color: black;
-    font-size: 28px;
 
+.textContainer1{
+    float: left;
+    margin-left: -40px;
+    width: 33vw;
 }
 
-.textBox2{
-    float: right;
+
+
+.textBox{
     background-color: steelblue;
-    width: 580px;
-    height: 120px;
+    width: 33vw;
     box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
     border-radius: 2px;
     text-align: center;
@@ -99,60 +101,183 @@ a.gitHyper{
     padding: 15px 20px 10px 20px;
 }
 
-.textContainer2{
-    float: right;
-    margin-left: -190px;
-    width: 600px;
+p{
+    color: white;
 }
 
-
-
-
-.projectTitle2{
-    margin-top: 50px !important;
-    margin-left: -480px !important;
+.projectTitle1{
+    text-align: right;
+    margin-top: 4vw;
     color: white;
     font-size: 28px;
+
+
 }
 
-.textBox2{
-    margin-left: -10%;
-    background-color: steelblue;
-    width: 580px;
-    height: 120px;
-    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
-    border-radius: 2px;
-    text-align: center;
-    font-size: 15px;
-    padding: 15px 20px 10px 20px;
+.ul1
+{
+
+    overflow-x:hidden;
+    white-space:nowrap;
+    margin-right: -20px;
+    margin-top: 10px;
 }
+
+.li1
+{
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+    display:inline;
+}
+
+a.gitHyper{
+    margin-right: 25px;
+}
+
+
+.project2{
+    margin-top: 150px;
+    position: relative;
+    display:flex;
+    justify-content:center;
+}
+
+.UNOPic{
+    margin-right: 50px;
+    float: left;
+    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
+    height: 392px;
+    width: auto;
+}
+
 
 .textContainer2{
     float: left;
-    margin-left: -40px;
-    width: 600px;
+    margin-right: -40px;
+    width: 33vw;
+    position:relative
+}
+
+
+
+.textBox2{
+    background-color: steelblue;
+    width: 33vw;
+    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 20px 10px 20px;
+}
+
+.projectTitle2{
+    text-align: left;
+    margin-top: 4vw;
+    color: white;
+    font-size: 28px;
+
+
 }
 
 .ul2
 {
+
     overflow-x:hidden;
     white-space:nowrap;
-    margin-right: 460px;
-    margin-top: 150px;
-
+    margin-right: -20px;
+    margin-top: 10px;
 }
 
 .li2
 {
-    float: right;
+    float: left;
+    padding-right: 25px;
     display:inline;
-
 }
 
 
 
+
+
+
+
+/*.project2{*/
+/*    margin-top: 400px;*/
+/*    position: relative;*/
+/*    display:flex;*/
+/*    justify-content:center;*/
+/*}*/
+
+/*.UNOPic{*/
+/*    margin-right: -1130px;*/
+/*    float: right;*/
+/*    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);*/
+/*    width: 600px;*/
+/*}*/
+
+/*.projectTitle2{*/
+/*    margin-top: 80px;*/
+/*    margin-left: -10px;;*/
+/*    color: black;*/
+/*    font-size: 28px;*/
+
+/*}*/
+
+/*.textContainer2{*/
+/*    float: right;*/
+/*    margin-left: -190px;*/
+/*    width: 600px;*/
+/*}*/
+
+
+
+
+/*.projectTitle2{*/
+/*    margin-top: 50px !important;*/
+/*    margin-left: -480px !important;*/
+/*    color: white;*/
+/*    font-size: 28px;*/
+/*}*/
+
+/*.textBox2{*/
+/*    margin-left: -10%;*/
+/*    background-color: steelblue;*/
+/*    width: 580px;*/
+/*    height: 120px;*/
+/*    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);*/
+/*    border-radius: 2px;*/
+/*    text-align: center;*/
+/*    font-size: 15px;*/
+/*    padding: 15px 20px 10px 20px;*/
+/*}*/
+
+/*.textContainer2{*/
+/*    float: left;*/
+/*    margin-left: -40px;*/
+/*    width: 600px;*/
+/*}*/
+
+/*.ul2*/
+/*{*/
+/*    overflow-x:hidden;*/
+/*    white-space:nowrap;*/
+/*    margin-right: 460px;*/
+/*    margin-top: 150px;*/
+
+/*}*/
+
+/*.li2*/
+/*{*/
+/*    float: right;*/
+/*    display:inline;*/
+
+/*}*/
+
+
+
 .project3{
-    margin-top: 400px;
+    margin-top: 150px;
     position: relative;
     display:flex;
     justify-content:center;
@@ -165,17 +290,15 @@ a.gitHyper{
 }
 
 .projectTitle3{
-    margin-top: 90px;
-    margin-left: 280px;
-    color: black;
+    text-align: right;
+    margin-top: 4vw;
+    color: white;
     font-size: 28px;
 }
 
 .textBox3{
-    margin-left: -10%;
     background-color: steelblue;
-    width: 580px;
-    height: 120px;
+    width: 33vw;
     box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
     border-radius: 2px;
     text-align: center;
@@ -186,61 +309,53 @@ a.gitHyper{
 .textContainer3{
     float: left;
     margin-left: -40px;
-    width: 600px;
+    width: 33vw;
 }
 
 .ul3
 {
     overflow-x:hidden;
     white-space:nowrap;
-    margin-right: 65px;
     margin-top: 10px;
+
 }
 
 .li3
 {
+    text-align: right;
     float: right;
-    padding-right: 25px;
+
     display:inline;
 }
 
 
 
 .projectTitle3{
-    margin-top: 90px;
-    margin-left: 280px;
+    text-align: right;
+    margin-top: 60px;
     color: white;
     font-size: 28px;
 }
 
-.textBox3{
-    margin-left: -10%;
-    background-color: steelblue;
-    width: 580px;
-    height: 120px;
-    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
-    border-radius: 2px;
-    text-align: center;
-    font-size: 15px;
-    padding: 15px 20px 10px 20px;
-}
 
 .textContainer3{
     float: left;
     margin-left: -40px;
-    width: 600px;
+    width: 33vw;
 }
 
 .ul3
 {
+
     overflow-x:hidden;
     white-space:nowrap;
-    margin-right: 65px;
+    margin-right: -20px;
     margin-top: 10px;
 }
 
 .li3
 {
+    text-align: right;
     float: right;
     padding-right: 25px;
     display:inline;
