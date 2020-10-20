@@ -1,0 +1,43 @@
+.projectBox{
+    margin-top: 400px;
+}
+
+.theBox{
+    background-color: steelblue;
+    width: 70vw;
+    height: 30vw;
+    box-shadow: -6px 7px 13px 0px rgba(0,0,0,0.49);
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 20px 10px 20px;
+    margin: auto;
+}
+
+.iconBox{
+    width: 100%;
+}
+
+.iconImage{
+    float: left;
+    margin-left: 5%;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.langButt{
+    width: 145px;
+}
+
+.titleBox{
+    float: left;
+    width: 69%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.divider{
+    width:5px;
+    height:30px;
+    display:inline-block;
+}

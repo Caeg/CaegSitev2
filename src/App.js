@@ -6,6 +6,7 @@ import About from './components/sections/About';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Projects from "./components/sections/Projects";
+import ProjectBox from "./components/sections/ProjectBox";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Welcome/>
           <About/>
           <Projects/>
+          <ProjectBox/>
           <Router>
             <Switch>
                 <Route path ='/' exact/>
