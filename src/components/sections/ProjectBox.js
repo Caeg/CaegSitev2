@@ -1,6 +1,6 @@
 import React from "react";
 import './ProjectBox.css';
-import allIcon from '../../assets/StartIcons/four-boxes.png'
+import allIcon from '../../assets/StartIcons/four-boxes.png';
 import cIcon from '../../assets/StartIcons/c-plain.svg';
 import htmlIcon from '../../assets/StartIcons/html5-plain.svg';
 import javaIcon from '../../assets/StartIcons/java-plain.svg';
@@ -8,11 +8,15 @@ import javascriptIcon from '../../assets/StartIcons/javascript-plain.svg';
 import pythonIcon from '../../assets/StartIcons/python-plain.svg';
 import reactIcon from '../../assets/StartIcons/react-original.svg';
 import rubyIcon from '../../assets/StartIcons/ruby-plain.svg';
-import swiftIcon from '../../assets/StartIcons/swift-plain.svg';
 import Button from 'react-bootstrap/Button'
 
-
-
+import CCards from '../cards/CCards'
+import HTMLCards from "../cards/HTMLCards";
+import JavaCards from "../cards/JavaCards";
+import JavaScriptCards from "../cards/JavaScriptCards";
+import PythonCards from "../cards/PythonCards";
+import ReactCards from "../cards/ReactCards";
+import RubyCards from "../cards/RubyCards";
 
 
 
@@ -103,13 +107,31 @@ function ProjectBox(){
                             <span className={"buttonTitle"}>Ruby</span>
                         </div>
                     </Button>
-
+                    <cCard/>
                     <div className="divider"/>
 
 
+
+
+                </div>
+                <div className={"cardLine"}>
+                    <CCards/>
+                    <HTMLCards/>
+                    <JavaCards/>
+                    <JavaScriptCards/>
+                    <PythonCards/>
+                    <ReactCards/>
+                    <RubyCards/>
                 </div>
 
+
+
+
+
             </div>
+
+
+
         </div>
 
     )
