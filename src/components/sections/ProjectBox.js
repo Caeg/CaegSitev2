@@ -1,4 +1,5 @@
 import React from "react";
+import $ from "jquery"
 import './ProjectBox.css';
 import allIcon from '../../assets/StartIcons/four-boxes.png';
 import cIcon from '../../assets/StartIcons/c-plain.svg';
@@ -8,8 +9,10 @@ import javascriptIcon from '../../assets/StartIcons/javascript-plain.svg';
 import pythonIcon from '../../assets/StartIcons/python-plain.svg';
 import reactIcon from '../../assets/StartIcons/react-original.svg';
 import rubyIcon from '../../assets/StartIcons/ruby-plain.svg';
+import tempPic from '../../assets/Temp.jpg'
 import Button from 'react-bootstrap/Button'
-
+import ProjectCard from "../ProjectCard";
+import CardData from "../CardData"
 import CCards from '../cards/CCards'
 import HTMLCards from "../cards/HTMLCards";
 import JavaCards from "../cards/JavaCards";
@@ -21,11 +24,20 @@ import RubyCards from "../cards/RubyCards";
 
 
 function ProjectBox(){
-    const svgIcon = (
-        <htmlIcon>
-            <img src ={htmlIcon} className="iconImage"/>
-        </htmlIcon>
-    );
+
+
+    const CardDeck = CardData.map(deck =>
+        <ProjectCard key={deck.id} img={deck.img} title={deck.title} description ={deck.description}/>)
+
+
+
+
+
+
+
+
+
+
 
 
     return(
@@ -92,7 +104,7 @@ function ProjectBox(){
 
                     <div className="divider"/>
 
-                    <Button className={"langButt"}>
+                    <Button className={"langButt"} >
                         <img src ={reactIcon} className="iconImage"/>
                         <div className={"titleBox"}>
                             <span className={"buttonTitle"}>Ruby</span>
@@ -101,7 +113,7 @@ function ProjectBox(){
 
                     <div className="divider"/>
 
-                    <Button className={"langButt"}>
+                    <Button className={"langButt"} id={"Ruby"}>
                         <img src ={rubyIcon} className="iconImage"/>
                         <div className={"titleBox"}>
                             <span className={"buttonTitle"}>Ruby</span>
@@ -110,18 +122,9 @@ function ProjectBox(){
                     <cCard/>
                     <div className="divider"/>
 
-
-
-
                 </div>
                 <div className={"cardLine"}>
-                    <CCards/>
-                    <HTMLCards/>
-                    <JavaCards/>
-                    <JavaScriptCards/>
-                    <PythonCards/>
-                    <ReactCards/>
-                    <RubyCards/>
+                    {CardDeck}
                 </div>
 
 

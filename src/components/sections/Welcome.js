@@ -4,9 +4,10 @@ import React from "react";
 import './Welcome.css';
 import {Container} from 'react-bootstrap'
 import ReactDOM from 'react-dom';
+import $ from "jquery";
 
 function Welcome(){
-    window.onload = function() {
+    $(window).on('load', function(){
         var count = 200;
         var div;
         var box = document.getElementsByClassName('box');
@@ -28,7 +29,7 @@ function Welcome(){
 
         }
         box[0].appendChild(fragment);
-    };
+    });
 
     window.addEventListener(
         "scroll",

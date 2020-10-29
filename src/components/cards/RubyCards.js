@@ -8,12 +8,11 @@ function RubyCards(){
     return(
         <div>
             <Card style={{ width: '14rem' }}>
-                <Card.Img variant="top" src={TempPic} />
+                <Card.Img variant="top" src={TempPic} alt="Ruby" />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Tic Tac Toe</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Tic Tac Toe created using Ruby. Play against a friend to see who's the best.
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>

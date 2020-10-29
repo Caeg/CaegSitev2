@@ -10,10 +10,9 @@ function PythonCards(){
             <Card style={{ width: '14rem' }}>
                 <Card.Img variant="top" src={TempPic} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Colorification 2</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        A self automated bot designed with infinite possibilities. Scan the screen for a color and then select a script for the bot to run.
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
